@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x unique_words.sh
+grep "root" /etc/passwd
