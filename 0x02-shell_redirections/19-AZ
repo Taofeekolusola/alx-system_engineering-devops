@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "input_string" | sed 's/A/Z/g; s/c/e/g'#!/bin/bash
 echo "input_string" | sed 's/A/Z/g; s/c/e/g'
