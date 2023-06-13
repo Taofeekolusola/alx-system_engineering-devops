@@ -1,2 +1,2 @@
 #!/bin/bash
-11-directories
+find . -type d -not -name '.' | wc -l
