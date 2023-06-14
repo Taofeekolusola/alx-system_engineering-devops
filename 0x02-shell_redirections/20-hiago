@@ -1,2 +1,2 @@
 #!/bin/bash
-./remove_c.sh
+tr "c" | tr "C"
