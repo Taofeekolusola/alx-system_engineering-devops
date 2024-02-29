@@ -5,10 +5,10 @@ sudo apt-get -y update
 sudo apt-get install -y nginx
 
 #configure
-mkdir etc/nginx/html
+mkdir /etc/nginx/html
 
 #creating sample page
-echo etc/nginx/html/index.html
+echo "Hello World!" > /etc/nginx/html/index.html
 
 #creating server-block files
 echo  "server {
@@ -23,4 +23,4 @@ echo  "server {
 " > /etc/nginx/sites-available/default
 
 #Restart Nginx
-Nginx -s Reload
+nginx -s reload
