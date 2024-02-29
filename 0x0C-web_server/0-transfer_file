@@ -8,5 +8,5 @@ else
   username=$3
   ssh_key=$4
 
-  scp -o  StrictHostKeyChecking=no -i "$ssh_key" "$file_path" "$username@$sever_ip:"~
+  scp -o  StrictHostKeyChecking=no -i "$ssh_key" "$file_path" "$username@$sever_ip:~"
 fi
