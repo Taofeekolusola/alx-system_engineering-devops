@@ -3,14 +3,8 @@
 
 sudo apt-get -y update
 sudo apt-get install -y nginx
-
-#configure
 mkdir /etc/nginx/html
-
-#creating sample page
 echo "Hello World!" > /etc/nginx/html/index.html
-
-#creating server-block files
 echo  "server {
         listen 80 default_server;
         listen [::]:80 default_server;
@@ -21,6 +15,4 @@ echo  "server {
         server_name _;
 }
 " > /etc/nginx/sites-available/default
-
-#Restart Nginx
 nginx -s reload
