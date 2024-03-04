@@ -1,3 +1,4 @@
-tr_rep="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.google.compermanent;"
+#/usr/bin/env bash
+str_rep="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.google.compermanent;"
 sudo sed -i "s/server_name _;/$str_rep/" /etc/nginx/sites-enabled/default
 service nginx restart
