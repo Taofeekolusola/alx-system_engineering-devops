@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # install ufw Firewall and setup some basic rules
 
 sudo apt-get -y update
