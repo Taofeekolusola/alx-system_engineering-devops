@@ -16,3 +16,4 @@ def number_of_subscribers(subreddit):
         counts = data.get('data').get('subscribers')
         return counts
     return 0
+
